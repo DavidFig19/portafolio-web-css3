@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio curso css3</title>
+
+    <!-- estilos -->
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+   <!-- layout principal -->
+   <div class="layout">
+
+        <!-- barra lateral (info usuario) -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+                
+                <!-- información general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img class="user-info__image" src="assets/img/default-user.jpg" alt="Foto de perfil de usuario">
+                    </div>
+
+                    <h2 class="user-info__name">Victor Robles</h2>
+                    <h4 class="user-info__job">Desarrollador web</h4>
+                </div>
+
+                <!-- Menú de navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a class="menu__link" href="index.html">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__link" href="sobre-mi.html">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mí</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__link" href="estudios.html">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Estudios</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__portafolio" href="portafolio.html">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__link" href="blog.html">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a class="menu__link" href="contacto.html">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a class="social__link" href="#">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Boton de curriculum -->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar</a>
+                </div>
+
+                <!-- pie de página -->
+                <footer class="user-info__footer">
+                    &copy; 2024 Victor Robles WEB
+                </footer>
+            </section>
+
+        </aside>
+
+        <main class="layout__content">
+            <section class="content__page content__about">
+               <!-- Este contenido cambia en cada pagina del sitio web-->
+
+               <header class="about__header">
+                    <h2 class="about__title">Sobre <span class="title__color">Mi</span></h2>
+               </header>
+
+               <section class="about__personal-info">
+
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae, sunt odio maxime mollitia eos consequatur aut facilis nesciunt quos iure minima quisquam commodi autem error voluptas impedit accusamus earum ea quod vel consequuntur facere tenetur ipsam. Cumque, facere reiciendis. Explicabo, sapiente alias rem sunt sit deleniti temporibus facilis dolore!
+                        </p>
+                    </article>
+
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Edad</span>
+                                <span class="personal-info__value">38</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Pais</span>
+                                <span class="personal-info__value">España</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Dirección</span>
+                                <span class="personal-info__value">C Gran vía, 77 28013 Madrid</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">correo</span>
+                                <span class="personal-info__value">correo@correo.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Télefono</span>
+                                <span class="personal-info__value">777-888-999</span>
+                            </li>
+                        </ul>
+                    </div>
+               </section>
+
+               <section class="about__services">
+
+                    <header class="services__header">
+                        <h3 class="services__title">
+                            Lo que <span class="title__color">hago</span>
+                        </h3>
+                    </header>
+
+                    <div class="services__container">
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Programación</h4>
+
+                                <p class="service__description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat magni debitis vero similique asperiores quia mollitia veritatis adipisci provident recusandae quasi commodi repellat, unde doloribus rem, necessitatibus quo dolores enim!
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Formación</h4>
+
+                                <p class="service__description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat magni debitis vero similique asperiores quia mollitia veritatis adipisci provident recusandae quasi commodi repellat, unde doloribus rem, necessitatibus quo dolores enim!
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-computer"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Desarrollo web</h4>
+
+                                <p class="service__description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat magni debitis vero similique asperiores quia mollitia veritatis adipisci provident recusandae quasi commodi repellat, unde doloribus rem, necessitatibus quo dolores enim!
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-terminal"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Administración</h4>
+
+                                <p class="service__description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat magni debitis vero similique asperiores quia mollitia veritatis adipisci provident recusandae quasi commodi repellat, unde doloribus rem, necessitatibus quo dolores enim!
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+               </section>
+
+               <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h3 class="reviews__title">Reseñas</h3>
+                    </header>
+
+                    <div class="reviews__container">
+                        
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img class="review__image" src="assets/img/testimonio1.jpg" alt="Cara de un cliente">
+                            </div>
+
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo ea necessitatibus dolor ratione aliquid reiciendis facere. Quas possimus, accusamus accusantium provident iusto magnam maiores hic nulla libero consequatur qui?
+                                </p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="rewiew__author-info">
+                                    <h4 class="review__name">Ana Lopez</h4>
+                                    <h5 class="review__company">Developers S.A</h5>
+                                </div>
+
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img class="review__image" src="assets/img/testimonio2.jpg" alt="Cara de un cliente">
+                            </div>
+
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo ea necessitatibus dolor ratione aliquid reiciendis facere. Quas possimus, accusamus accusantium provident iusto magnam maiores hic nulla libero consequatur qui?
+                                </p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="rewiew__author-info">
+                                    <h4 class="review__name">Ruben Martinez</h4>
+                                    <h5 class="review__company">Fullstack S.L</h5>
+                                </div>
+
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+               </section>
+
+            </section>
+        </main>
+   </div>
+
+</body>
+</html>
