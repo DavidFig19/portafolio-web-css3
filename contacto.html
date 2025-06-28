@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/scroll.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+
+    <script src="assets/js/map.js" defer></script>
 </head>
 <body>
 
@@ -145,15 +148,12 @@
 
                     <section class="contact__form-box">
 
-                        <div class="contact__map">
-                            <!-- <iframe
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                            src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2smx!4v1751066770927!5m2!1ses-419!2smx!6m8!1m7!1sUwxhf_DyMn36J6HpFauCNw!2m2!1d40.40181781901065!2d-3.700129276645398!3f145.40329611395106!4f1.127381490484197!5f0.7820865974627469"></iframe> -->
+                        <div class="contact__map" id="load-iframe-map">
+                           <span class="loader"></span>
                         </div>
 
                         <header class="contact__form-header">
-                            <h3 class="contact__subtitle">¿Cómo puedo <span class="subtitle__color">ayudarte?</span></h3>
+                            <h3 class="form-header__title">¿Cómo puedo <span class="title__color">ayudarte?</span></h3>
                         </header>
 
                         <form class="contact__form">
@@ -180,15 +180,17 @@
                                 </section>
 
                                 <section class="form__right">
-                                    <div class="form__group">
+                                    <div class="form__group form__group--textarea">
                                         <textarea class="form__input form__input--textarea" name="message" required placeholder="Mensaje"></textarea>
                                         <label for="message" class="form__label">Mensaje</label>
                                     </div>
                                 </section>
 
-                                <input type="submit" class="form__button" value="Enviar mensaje">
+                                
 
                             </div>
+
+                            <input type="submit" class="form__button" value="Enviar mensaje">
 
                         </form>
 
