@@ -1,6 +1,6 @@
 # 🧑‍💻 Portafolio Web - Proyecto CSS3
 
-Este proyecto forma parte del curso [_"Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales"_](https://www.udemy.com/course/master-en-css3-avanzado-flexbox-css-grid-layout) de **Víctor Robles**.
+Este proyecto forma parte del curso [_"Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales"_](https://www.udemy.com/course/master-en-css3-avanzado-flexbox-css-grid-layout-responsive/) de **Víctor Robles**.
 
 ## 🌟 Descripción
 
